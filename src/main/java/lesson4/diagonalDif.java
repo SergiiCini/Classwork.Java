@@ -15,6 +15,7 @@ public class diagonalDif {
         int size = arr.length;
 
         for (int i = 0; i < size; i++) {
+
             firstDiagonal = firstDiagonal + arr[i][i];
             secondDiagonal = secondDiagonal + arr[i][size - i - 1];
         }
